@@ -51,7 +51,7 @@ class Neklo_Core_Block_System_Extensions extends Neklo_Core_Block_System_Abstrac
             $img = '<img src="' . $imgUrl . '" alt="' . $name . '">';
 
             if ($config->url) {
-                $url = 'htt' . 'p:/' . '/st' . 'ore' . '.ne' . 'klo' . '.co' . 'm/' . $config->url . '.html';
+                $url = '<domain></domain>' . $config->url . '.html';
                 $url = str_replace('<domain>' . '</domain>', '/', $url);
                 $img = '<a href="' . $url . '" target="_blank">' . $img . '</a>';
             }

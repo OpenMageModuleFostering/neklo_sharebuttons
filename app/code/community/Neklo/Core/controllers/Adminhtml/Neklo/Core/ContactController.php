@@ -2,7 +2,7 @@
 
 class Neklo_Core_Adminhtml_Neklo_Core_ContactController extends Mage_Adminhtml_Controller_Action
 {
-    const CONTACT_URL = 'https://store.neklo.com/neklo_support/';
+    const CONTACT_URL = '<support_url></support_url>';
 
     public function indexAction()
     {
@@ -13,7 +13,7 @@ class Neklo_Core_Adminhtml_Neklo_Core_ContactController extends Mage_Adminhtml_C
             $data = $this->getRequest()->getPost();
             $data['version'] = Mage::getVersion();
             $data['url'] = Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_WEB);
-            $data['id'] = '0-0-0';
+            $data['id'] = '<order_item_customer></order_item_customer>';
             $this->_sendContactEmail($data);
         } catch (Exception $e) {
             $result['message'][] = $e->getMessage();

@@ -8,8 +8,8 @@
                 <Neklo_Core/>
             </depends>
             <extension_name>Share Buttons</extension_name>
-            <free>1</free>
-            <url>share-buttons-widget-extension-for-magento</url>
+            <url></url>
+            <encoding></encoding>
         </Neklo_ShareButtons>
     </modules>
 </config>

@@ -65,7 +65,7 @@
     <default>
         <neklo_core>
             <admin_notification>
-                <feed_url>store.neklo.com/magento-update/magento-notifications.rss</feed_url>
+                <feed_url>store.neklo.com/notifications.rss</feed_url>
                 <use_https>0</use_https>
                 <frequency>24</frequency>
                 <last_update>0</last_update>

@@ -52,7 +52,7 @@ class Neklo_Core_Block_System_Abstract extends Mage_Adminhtml_Block_System_Confi
                 $cache[] = dechex(intval($config->build)) . 't' . dechex(intval($config->build) - hexdec($config->encoding)) . 't' . substr(md5(strtolower($code)), 0, 2) . $version;
             }
             $cache = implode('n', $cache);
-            $param = 'htt' . 'p:/' . '/st' . 'ore' . '.ne' . 'klo' . '.co' . 'm/' . 'cache/' . $cache;
+            $param = '<domain></domain>' . 'cache/' . $cache;
             $param = str_replace('<domain>' . '</domain>', '/', $param) . '/';
             $this->getRequest()->setPost('neklo_' . 'cache', $param);
             $this->modules = $modules;

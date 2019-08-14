@@ -46,7 +46,7 @@
             <a class="social-icon stumbleupon-<?php echo $icon_type ?> <?php echo $color_class ?>" href="javascript:popWin('http://www.stumbleupon.com/submit?url=<?php echo $this->getShareUrl(); ?>&title=<?php echo $this->getTitle(); ?>', 'stumbleupon', 'width=' + popupWidth + ',height=' + popupHeight + ',left=' + popupLeftOffset + ',top=' + popupTopOffset + ',location=no,status=yes,menubar=no,toolbar=no,resizable=yes,scrollbars=yes');"></a>
         <?php endif; ?>
 
-        <?php if ($this->isEnabled()) : ?>
+        <?php if ($this->isDiggEnabled()) : ?>
             <a class="social-icon digg-<?php echo $icon_type ?> <?php echo $color_class ?>" href="javascript:popWin('http://digg.com/submit?url=<?php echo $this->getShareUrl(); ?>&title=<?php echo $this->getTitle(); ?>', 'digg', 'width=' + popupWidth + ',height=' + popupHeight + ',left=' + popupLeftOffset + ',top=' + popupTopOffset + ',location=no,status=yes,menubar=no,toolbar=no,resizable=yes,scrollbars=yes');"></a>
         <?php endif; ?>
     </div>
