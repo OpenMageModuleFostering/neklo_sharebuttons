@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <neklo_sharebuttons translate="title" module="neklo_sharebuttons">
+                                        <title>Neklo LLC - Share Buttons</title>
+                                        <sort_order>150</sort_order>
+                                    </neklo_sharebuttons>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

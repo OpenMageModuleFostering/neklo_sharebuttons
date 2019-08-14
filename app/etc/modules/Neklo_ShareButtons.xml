@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Neklo_ShareButtons>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Neklo_Core/>
+            </depends>
+            <extension_name>Share Buttons</extension_name>
+            <free>1</free>
+            <url>share-buttons-widget-extension-for-magento</url>
+        </Neklo_ShareButtons>
+    </modules>
+</config>
